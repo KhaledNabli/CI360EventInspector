@@ -1,0 +1,53 @@
+
+.event.load{
+	border-style: solid;
+    border-width: 2px;
+    border-color: rgba(90, 90, 90, 1);
+    border-radius: 10px;
+
+    vertical-align: middle;
+    text-align: center;
+    background: linear-gradient(to top, rgba(151, 167, 188, 1), rgba(200, 232, 253, 1));
+    padding-top: 7px;
+    min-height: 40px;
+    width: 75px;
+    margin: auto;
+}
+
+
+.event.click{
+	border-style: solid;
+    border-width: 1px;
+    border-color: rgba(90, 90, 90, 1);
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    background: linear-gradient(to top, rgb(109, 126, 217), rgb(113, 192, 76));
+    padding-top: 9px;
+    min-height: 40px;
+    width: 40px;
+    margin: auto;
+    color: white;
+}
+
+
+.event.change{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(90, 90, 90, 1);
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    background: linear-gradient(to top, rgb(198, 217, 109), rgb(192, 169, 76));
+    padding-top: 9px;
+    min-height: 40px;
+    width: 40px;
+    margin: auto;
+    color: black;
+}
+
+#journeyFlow > div {
+    background: url('../images/arrow.png');
+    background-size: contain;
+}
+    
